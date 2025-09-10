@@ -24,6 +24,8 @@ function getRandomColor(){
 }
 
 
-btn.addEventListener("click",function(){
+document.addEventListener("DOMContentLoaded",function(){
+   btn.addEventListener("click",function(){
     box.style.backgroundColor = getRandomColor()
+})
 })
